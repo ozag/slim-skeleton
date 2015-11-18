@@ -1,0 +1,6 @@
+php:
+  build: .
+  volumes:
+   - .:/var/www/html
+   - ./sites-enabled:/etc/apache2/sites-enabled
+  env_file: .env

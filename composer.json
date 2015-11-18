@@ -1,0 +1,17 @@
+{
+  "name": "Ozagapp/slim-skeleton",
+  "description": "Slim Framework Skeleton for internal use",
+  "require": {
+    "slim/slim": "^3.0@RC",
+    "php-di/php-di": "~5.1",
+    "illuminate/support": "~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ozag\\Skeleton\\": "src/"
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  }
+}
